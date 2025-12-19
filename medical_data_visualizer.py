@@ -48,7 +48,7 @@ def draw_heat_map():
                  ]
 
     # 12
-    corr = None
+    corr = df_heat.corr()
 
     # 13
     mask = None
