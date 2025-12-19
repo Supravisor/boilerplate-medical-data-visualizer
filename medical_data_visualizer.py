@@ -29,7 +29,7 @@ def draw_cat_plot():
 
 
     # 8
-    fig = None
+    fig = graph.fig
 
 
     # 9
