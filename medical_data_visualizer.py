@@ -20,7 +20,7 @@ def draw_cat_plot():
 
 
     # 6
-    df_cat = None
+    df_cat = df_cat.groupby(['cardio', 'variable', 'value']).size().reset_index()
     
 
     # 7
